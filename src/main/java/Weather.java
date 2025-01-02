@@ -11,7 +11,7 @@ private final String apiUrl;
 private JSONObject weatherData;
 
 public Weather(String city) {
-	String apiKey = "29908e190385c670a9d08e9039c4299d";
+	String apiKey = "<APIKEY>";
 	this.apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + apiKey;
 	this.weatherData = null;
 }
